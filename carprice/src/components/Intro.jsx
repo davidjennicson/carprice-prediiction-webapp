@@ -37,8 +37,10 @@ function Intro() {
   <div  className=''>
   <motion.h1 initial={{y:-400}} transition={{duration:0.5}} animate={{ y: -70 }}   class="title">PriceGenie</motion.h1>
   <motion.h1 initial={{opacity:0}} transition={{duration:0.7}} animate={{ opacity: 1 }} className="caption" >Drive smarter. <br /> Predict better.</motion.h1>
+  <motion.h1 initial={{opacity:0}} transition={{duration:0.7}} animate={{ opacity: 1 }} className="caption btn" >Get Price </motion.h1>
 
      </div>
+    
 </div>
 
 
